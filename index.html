@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kirsh</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300;0,400;0,700;1,700&display=swap');
+
+* {
+    font-family: Noto Sans;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.top {
+    position: fixed;
+    background-color: #000;
+    width: 100%;
+    height: 37px;
+    text-align: center;
+}
+.top > span {
+    display: block;
+    color: #fff;
+    font-size: 11px;
+    padding: 10px 0;
+}
+
+.logo_area {
+    position: fixed;
+    float: left;
+    padding: 50px 0 0 50px;
+
+}
+.logo_area > p {
+    font-size: 40px;
+    color: #111111;
+    text-transform: uppercase;
+    letter-spacing: 14px;
+    padding: 20px;
+}
+.icon {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin: 0 20px 20px 0;
+}
+.icon img {
+    width: 80px;
+}
+.menu {
+    position: fixed;
+    right: 40px;
+    text-align: right;
+    padding: 80px 20px 0 0;
+    display: flex;
+}
+.menu ul {
+    margin-left: 30px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.menu li {
+    display: none;
+}
+
+.main div:first-child {
+    background-image: url('p_main_001.jpeg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.main div:nth-child(2) {
+    background-image: url('p_main_002.jpeg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.main div:nth-child(3) {
+    background-image: url('p_main_003.jpeg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.main div:nth-child(4) {
+    background-image: url('p_main_004.jpeg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.bottom {
+    width: 100%;
+    padding: 50px 0 30px 0;
+}
+.bottom > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 70px;
+}
+.bottom > ul > li{
+    font-size: 15px;
+    font-weight: 600;
+}
+.bottom > ul > li::after {
+    content: '|';
+    margin: 0 20px;
+}
+.bottom > ul > li:last-child:after {
+    content: none;
+    margin: 0;
+}
+.bottom_logo_area {
+    display: block;
+    padding-bottom: 10px;
+    font-size: 23px;
+    letter-spacing: 8px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
+.place {
+    text-align: center;
+    font-size: 10px;
+    line-height: 15px;
+    letter-spacing: 1px;
+}
+.copy {
+    font-size: 11px;
+    text-align: center;
+    padding: 10px 0 50px 0;
+}
+.sns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.sns > span {
+    font-size: 11px;
+    padding: 0 15px;
+}
+    </style>
+</head>
+<body>
+    <div class="top">
+        <span>KIRSH 22AW CHERRY LINE 2ND OPEN!</span>
+    </div>
+    <div class="logo_area">
+        <p>kirsh®</p>
+    </div>
+    <div class="menu">
+        <ul class="line">LINE
+            <li>CHERRY</li>
+            <li>DOUBLE CHERRY</li>
+            <li>WITTY BUNNY</li>
+            <li>UNI</li>
+            <li>KIRSH COLLECTION</li>
+            <li>KIRSH POCKET</li>
+            <li>COLLABORATION</li>
+        </ul>
+        <ul class="new">NEW</ul>
+        <ul>CLOTHING
+            <li>OUTER</li>
+            <li>SWEATSHIRT</li>
+            <li>HOODIE</li>
+            <li>KNITWEAR</li>
+            <li>T-SHIRT</li>
+            <li>SHIRT & BLOUSE</li>
+            <li>DRESS & SKIRT</li>
+            <li>PANTs & SHORTS</li>
+            <li>SWIMWEAR</li>
+        </ul>
+        <ul class="shoes">SHOES</ul>
+        <ul class="bag">BAGS</ul>
+        <ul class="acc">ACCESSORIES</ul>
+        <ul class="lookbook">LOOKBOOK</ul>
+        <ul>INFO
+            <li>Notice</li>
+            <li>Q&A</li>
+            <li>Review</li>
+            <li>Event</li>
+            <li>Contact Us</li>
+            <li>Press</li>
+            <li>Stockist</li>
+        </ul>
+    </div>
+    <div class="icon">
+        <img src="kakao.png" alt="">
+    </div>
+    <div class="main">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <div class="bottom">
+        <ul>
+            <li>MY PAGE</li>
+            <li>SHOPPING GUIDE</li>
+            <li>ORDER</li>
+            <li>KIRSH GIRL</li>
+            <li>STOCKIST</li>
+            <li>PRESS</li>
+        </ul>
+        <div class="bottom_logo_area">
+            <img src="cherry_R.jpeg" alt="">
+            <p>kirsh®</p>
+        </div>
+        <p class="place">
+            8F, 242, Pangyo-ro, Bundang-gu, Seongnam-si, Gyeonggi-do 주식회사 키르시<br>
+            <strong>License</strong> 284-81-00849 이준권 / <span>Network License</span>2019-서울성동-992<br>
+            <strong>contact</strong> kirsh.official@gmail.com  (+82) 070-8801-5967
+        </p>
+        <p class="copy">©2018 kirsh All Right Reserved</p>
+        <div class="sns">
+            <span>Term of Use</span>
+            <span>Privacy Policy</span>
+            <span>Facebook</span>
+            <span>Instagram</span>
+        </div>
+    </div>
+</body>
+</html>
